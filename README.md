@@ -2,6 +2,12 @@
 
 ### 简单说明
 
++ 版本信息
+```
+sofa.boot.version: 3.14.0-SNAPSHOT
+sofa.ark: 2.0.2
+spring-boot: 2.7.1
+```
 + app-one 是宿主应用，引入了 app-two 的 biz 依赖：
 ```xml
 <dependency>
