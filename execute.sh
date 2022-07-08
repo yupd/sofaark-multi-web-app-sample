@@ -1,8 +1,5 @@
 #!/bin/bash
 
-rm -rf ~/.m2/repository/me
-svn update
-
 mvn clean install -DskipTests
 cd facade/
 mvn clean install -DskipTests
